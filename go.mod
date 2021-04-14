@@ -31,11 +31,11 @@ replace github.com/couchbase/cbgt => ../../../../../cbgt
 require (
 	github.com/blevesearch/bleve/v2 v2.0.3
 	github.com/buger/jsonparser v1.1.1
-	github.com/couchbase/cbauth v0.0.0-20200923220950-efdafddb9bd2
-	github.com/couchbase/cbft v0.0.0-00010101000000-000000000000
-	github.com/couchbase/cbgt v0.0.0-00010101000000-000000000000
+	github.com/couchbase/cbauth v0.0.0-20201026062450-0eaf917092a2
+	github.com/couchbase/cbft v0.4.0
+	github.com/couchbase/cbgt v0.0.0-20210412150823-5fbd5c755c7e
 	github.com/couchbase/gocbcore/v9 v9.1.4-0.20210325182448-577aecce6dc6
 	github.com/couchbase/moss v0.1.0
-	github.com/couchbase/query v0.0.0-00010101000000-000000000000
-	google.golang.org/grpc v1.24.0
+	github.com/couchbase/query v0.0.0-20210414101450-488417774d57
+	google.golang.org/grpc v1.37.0
 )
